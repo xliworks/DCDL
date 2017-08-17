@@ -25,7 +25,7 @@ inner_iter_max=1;
 tol=1e-5;  
 
 % numerical operation
-epsilon=1e-7; 
+epsilon=1e-6; 
 
 % recovery Ratio and total error
 recoveryRatio=zeros(iter_max,1);

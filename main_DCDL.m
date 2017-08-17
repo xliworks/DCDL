@@ -22,7 +22,7 @@ SNR=20;  % The modified parameters are possibly required when SNR is low.
 inner_iter_max=1;
 
 % dictionary updating tolerance
-tol=1e-6;  
+tol=1e-5;  
 
 % numerical operation
 epsilon=1e-7; 

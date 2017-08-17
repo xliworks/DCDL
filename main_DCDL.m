@@ -1,7 +1,7 @@
 %% DCDL--Gaussian dictionary beta version
 % This matlab code implements the DCDL (Dictionary Learning with Difference of Convex programming) algorithm.
 % 201703
-% Xiang Li    lixiangworks@github
+% Xiang Li    xliworks@github
 
 clear;
 close all;

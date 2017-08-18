@@ -94,7 +94,7 @@ for iter=1:iter_max
 
     u_update = X_Coef_Matrix_former-Grad/phi;
 
-    X_Coef_Matrix = sign(u_update+Z).*max(abs(u_update+Z)-lambda/phi,0);
+    X_Coef_Matrix = sign(u_update+Z/phi).*max(abs(u_update+Z/phi)-lambda/phi,0);
         
     %% dictionary updating phase
 
